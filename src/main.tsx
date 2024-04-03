@@ -6,7 +6,7 @@ import { BrowserRouter } from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <div className='h-screen w-screen px-4 py-8 bg-slate-950/95 text-gray-100'>
+    <div className='min-h-screen min-w-screen px-4 py-8 bg-slate-950/95 text-gray-100'>
       <BrowserRouter>
         <App />
       </BrowserRouter>
